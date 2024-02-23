@@ -1,0 +1,214 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif !important;
+    padding: 0 !important;
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+    background-color: #9B4444;
+}
+
+body::-webkit-scrollbar {
+    display: none !important;
+}
+
+/* import font */
+@font-face {
+    font-family: 'alexbrush';
+    src: url(/font/AlexBrush-Regular.ttf);
+}
+@font-face {
+    font-family: 'ChopinScript';
+    src: url(/font/ChopinScript.ttf);
+}
+@font-face {
+    font-family: 'Bigdey';
+    src: url(/font/Bigdey.ttf);
+}
+@font-face {
+    font-family: 'Amedademo';
+    src: url(/font/Amedademo.otf);
+}
+@font-face {
+    font-family: 'aurella';
+    src: url(/font/Aurella.ttf);
+}
+@font-face {
+    font-family: 'haydena';
+    src: url(/font/Haydena-6Yz7Y.otf);
+}
+
+/* FONT */
+
+.font-esthetik {
+    font-family: 'ChopinScript', cursive !important;
+    color: #ffffff !important;
+    text-shadow: 0px 0px 3px rgba(234, 192, 24, 1);
+}
+
+.font-waktu {
+    font-family: 'haydena', cursive !important;
+    color: #ffffff !important;
+    text-shadow: 0px 0px 3px rgba(234, 192, 24, 1);
+}
+
+.font-waktu2 {
+    font-family: 'haydena', cursive !important;
+    color: black !important;
+    text-shadow: 0px 5px 6px #ffffff;
+}
+
+.font-mempelai {
+    font-family: 'Amedademo', cursive !important;
+    color: #ffffff !important;
+    text-shadow: 0px 0px 3px rgba(234, 192, 24, 1);
+}
+
+.font-esthetic {
+    font-family: 'alexbrush', cursive !important;
+    color: #ffffff !important;
+    text-shadow: 0px 0px 3px rgba(234, 192, 24, 1);
+}
+
+.font-esthetix {
+    font-family: 'Sacramento', cursive !important;
+    color: #ffffff !important;
+    text-shadow: 0px 0px 3px rgba(234, 192, 24, 1);
+}
+
+.font-aesthetic {
+    font-family: 'Sacramento', cursive !important;
+    color: black !important;
+}
+
+
+.font-oke {
+    font-family: 'aurella', cursive !important;
+    color: black !important;
+}
+
+.textarea .placeholder {
+    color: black;
+}
+
+.font-arabic {
+    font-family: 'Noto Naskh Arabic', serif !important;
+    color: #ffffff !important;
+}
+
+.img-crop {
+    width: 14rem;
+    height: 14rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img-crop>img {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+
+.btn-music {
+    position: fixed;
+    bottom: 9vh !important;
+    right: 2vh !important;
+    z-index: 1055 !important;
+}
+
+.loading-page {
+    position: fixed;
+    inset: 0 !important;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/bg\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1056 !important;
+}
+
+.progress{
+    --bs-progress-bar-bg: #f46e6e;
+}
+
+.card-body {
+    overflow-wrap: break-word !important;
+}
+
+.mouse-animation {
+    padding: 0.25rem 0.625rem;
+    height: 2rem;
+    border: 0.1rem solid #ffffff;
+    border-radius: 1.4rem;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+
+
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(1rem);
+        opacity: 0;
+    }
+}
+
+.mouse-animation>.scroll-animation {
+    width: 0.25rem;
+    height: 0.625rem;
+    border-radius: 25%;
+    background-color: #ffffff;
+    animation-name: scroll;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin-icon {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spin-button {
+    animation: spin-icon 5s linear infinite;
+}
+
+@keyframes love {
+    50% {
+        transform: translateY(1rem);
+    }
+}
+
+.animate-love {
+    animation: love 5s ease-in-out infinite;
+}
+
+.dark-section {
+    background-color: #9B4444 !important;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+footer {
+    background-color: #76453B !important;
+    margin-top: -0.5rem;
+    padding-bottom: 5rem;
+}
